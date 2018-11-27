@@ -10,7 +10,7 @@ Example of reading and writing files in gcp using spark on-premise
 
 ## Run on local spark
 
-Tested using Spark 2.11 on Mac
+Tested on Mac, Spark 2.3.2 Using Scala version 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_181).
 
 Note that the playground-key.json must be in the current directory
 ```
