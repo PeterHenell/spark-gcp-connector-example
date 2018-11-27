@@ -6,7 +6,7 @@ Example of reading and writing files in gcp using spark on-premise
   * Create a bucket in GCP called spark-playground.
   * Upload a text file to the bucket, in the example my file is named ```oracle-db.go```.
   * Create a service account in your GCP account and grant it permissions to read and write to the bucket.
-  * Generate a json key file for the service account, download it, and rename it to playground-key.json (can have any name, this name is used by this demo code)
+  * Generate a json key file for the service account, download it, and rename it to ```playground-key.json``` (can have any name, this name is used by this demo code)
   * Store the file in the same directory as the source root of this project.
 
 ## Run on local spark
