@@ -1,4 +1,4 @@
-# spark-gcp-connector-example
+# Spark GCS-Connector Examples
 Example of reading and writing files in gcp using spark on-premise
 
 # Prerequisites
