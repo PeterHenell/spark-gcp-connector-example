@@ -24,6 +24,9 @@ Tested on Cloudera (Hadoop 2)
 Note that the playground-key.json must be in the current directory
 
 ```
+# build fat jar and copy it to a node in the cluster.
+sbt assembly && scp target/scala-2.11/hello-world-assembly-1.0.jar landing-1.hadoop.henell.net://home/pehe
+# SHH to the node and submit using spark2 submit as per usual, include the key in the jars argument
 spark2-submit  --deploy-mode client --num-executors 5  --jars /etc/hbase/conf/hbase-site.xml,playground-key.json ~/hello-world-assembly-1.0.jar
 ```
 
